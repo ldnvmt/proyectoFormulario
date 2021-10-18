@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FORMULARIO INGRESO DE CLIENTES LN</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <link href="https://fonts.googleapis.com/css?family=Lora:300,400,500,700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <form action="" class="form" id="form" autocomplete="off">
+      <p class="form-titulo">Bienvenido estimado cliente, por favor ingresa tus datos. </p>
+      <div class="form-input entername">
+        <input type="text" id="entername">
+        <label for="entername">Nombre</label>
+        <p class="mensajeError"></p>
+      </div>
+      <div class="form-input enterlastname">
+        <input type="text" id="enterlastname">
+        <label for="enterlastname">Apellidos</label>
+        <p class="mensajeError"></p>
+      </div>
+      <div class="form-input enteremail">
+        <input type="email" id="enteremail">
+        <label for="enteremail">Correo electrónico</label>
+        <p class="mensajeError"></p>
+      </div>
+      <div class="form-input enterphone">
+        <input type="text" id="enterphone">
+        <label for="enterphone">Número de teléfono</label>
+        <p class="mensajeError"></p>
+      </div>
+      <div class="form-input enterpassword">
+        <input type="password" id="enterpassword">
+        <label for="enterpassword">Contraseña</label>
+        <p class="mensajeError"></p>
+      </div>
+      <div class="form-input enterpasswordagain">
+        <input type="password" id="enterpasswordagain">
+        <label for="enterpasswordagain">Confirmar Contraseña</label>
+        <p class="mensajeError"></p>
+      </div>
+      <div class="form-AcceptTerms AcceptTerms">
+        <input type="checkbox" id="AcceptTerms">
+        <label for="AcceptTerms">He leído y acepto los </label>
+        <a href="#">Términos y Condiciones del servicio.</a>
+        <p class="mensajeError"></p>
+      </div>
+      <div class="SubmitC" >
+        <input type="submit" value="Enviar">
+      </div>
+      <p class="mensajeCorrecto"></p>
+    </form>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
